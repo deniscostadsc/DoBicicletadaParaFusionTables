@@ -9,7 +9,7 @@ class TestPage(unittest.TestCase):
 
     def test_if_page_exist(self):
         page=Page()
-        self.assertEquals(page.statuscode(), 200)
+        self.assertEquals(page.status_code, 200)
     
     def test_if_content_is_HTML(self):
         page=Page()
