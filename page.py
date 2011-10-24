@@ -11,6 +11,9 @@ class Page(object):
         self.page.close()
 
     def statuscode(self):
+        # Retorna código de retorno HTTP
+        # mais informação em:
+        # http://pt.wikipedia.org/wiki/Hypertext_Transfer_Protocol#C.C3.B3digos_de_retorno
         return self.status_code
 
 class CSV(object):
