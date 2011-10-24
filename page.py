@@ -4,17 +4,17 @@ class Page(object):
 
     def __init__(self):
         self.url='http://bicicletada.org/'
-        self.page=urllib.urlopen(self.url)
-        self.status_code=self.page.getcode()
-        self.content=self.page.read()
-        
-        self.page.close()
 
-    def statuscode(self):
+        self.page=urllib.urlopen(self.url)
+
         # Retorna código de retorno HTTP
         # mais informação em:
         # http://pt.wikipedia.org/wiki/Hypertext_Transfer_Protocol#C.C3.B3digos_de_retorno
-        return self.status_code
+        self.status_code=self.page.getcode()
+
+        self.content=self.page.read()
+        
+        self.page.close()
 
 class CSV(object):
     def __init__(self):
