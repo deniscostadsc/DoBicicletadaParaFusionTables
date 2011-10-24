@@ -1,7 +1,7 @@
-** Testes **
+## Testes ##
 
 Este projeto está sendo deselvolvido com TDD.
 
 Para executar os testes das classes, execute o seguinte comando
 
-`$ python teste_classe.py`
+'$ python teste_classe.py'
