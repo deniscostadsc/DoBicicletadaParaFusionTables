@@ -4,6 +4,7 @@ import re
 from page import Page
 
 class Parser(object):
+    
     page = Page()
     content = page.content
     

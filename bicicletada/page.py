@@ -7,7 +7,7 @@ import urllib
 
 class Page(object):
 
-    def __init__(self):
+    def __init__(self):        
         self.url='http://bicicletada.org/'
 
         # Pega a página configurada na URL.

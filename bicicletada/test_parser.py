@@ -10,6 +10,6 @@ class TestParser(unittest.TestCase):
         parser = Parser()
         for line in parser.parse():
             self.assertEquals(len(line), 3)
-
+    
 if __name__ == '__main__':
     unittest.main()
