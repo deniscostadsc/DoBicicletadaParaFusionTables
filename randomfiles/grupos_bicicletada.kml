@@ -1,0 +1,1952 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Folder id="Fusiontables">
+<name>Fusiontables folder</name>
+<Style id="BasicStyle">
+<BalloonStyle>
+<text>$[description]</text>
+</BalloonStyle>
+<IconStyle>
+<color>FFFFFFFF</color>
+<scale>1.1</scale>
+<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/><Icon>
+<href>http://maps.google.com/mapfiles/kml/paddle/red-blank_maps.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name><![CDATA[Alagoas]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Alagoas<br>
+<b>Localização:</b> Maceió, Alagoas<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Maceio" target="_blank">http://www.bicicletada.org/Maceio</a>
+</div>]]>
+</description>
+<address>Maceió, Alagoas</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Alagoas</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Maceio</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Amapá]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Amapá<br>
+<b>Localização:</b> Macapá, Amapá<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Macapa" target="_blank">http://www.bicicletada.org/Macapa</a>
+</div>]]>
+</description>
+<address>Macapá, Amapá</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Amapá</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Macapa</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Amazonas]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Amazonas<br>
+<b>Localização:</b> Manaus, Amazonas<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/manaus" target="_blank">http://www.bicicletada.org/manaus</a>
+</div>]]>
+</description>
+<address>Manaus, Amazonas</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Amazonas</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/manaus</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Bahia]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Bahia<br>
+<b>Localização:</b> Salvador, Bahia<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Salvador" target="_blank">http://www.bicicletada.org/Salvador</a>
+</div>]]>
+</description>
+<address>Salvador, Bahia</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Bahia</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Salvador</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Bahia]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Bahia<br>
+<b>Localização:</b> Vitória da Conquista, Bahia<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Vit%C3%B3ria+da+Conquista" target="_blank">http://www.bicicletada.org/Vit%C3%B3ria+da+Conquista</a>
+</div>]]>
+</description>
+<address>Vitória da Conquista, Bahia</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Bahia</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Vit%C3%B3ria+da+Conquista</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Ceará]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Ceará<br>
+<b>Localização:</b> Fortaleza, Ceará<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Fortaleza" target="_blank">http://www.bicicletada.org/Fortaleza</a>
+</div>]]>
+</description>
+<address>Fortaleza, Ceará</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Ceará</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Fortaleza</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Distrito Federal]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Distrito Federal<br>
+<b>Localização:</b> Brasília, Distrito Federal<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/bras%C3%ADlia" target="_blank">http://www.bicicletada.org/bras%C3%ADlia</a>
+</div>]]>
+</description>
+<address>Brasília, Distrito Federal</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Distrito Federal</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/bras%C3%ADlia</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Espírito Santo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Espírito Santo<br>
+<b>Localização:</b> Vitória, Espírito Santo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Vitoria" target="_blank">http://www.bicicletada.org/Vitoria</a>
+</div>]]>
+</description>
+<address>Vitória, Espírito Santo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Espírito Santo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Vitoria</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Goiás]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Goiás<br>
+<b>Localização:</b> Goiânia, Goiás<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Goiania" target="_blank">http://www.bicicletada.org/Goiania</a>
+</div>]]>
+</description>
+<address>Goiânia, Goiás</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Goiás</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Goiania</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Maranhão]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Maranhão<br>
+<b>Localização:</b> São Luis, Maranhão<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/saoluis" target="_blank">http://www.bicicletada.org/saoluis</a>
+</div>]]>
+</description>
+<address>São Luis, Maranhão</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Maranhão</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/saoluis</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mato Grosso]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Mato Grosso<br>
+<b>Localização:</b> Cuiabá, Mato Grosso<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/cuiaba" target="_blank">http://www.bicicletada.org/cuiaba</a>
+</div>]]>
+</description>
+<address>Cuiabá, Mato Grosso</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Mato Grosso</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/cuiaba</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Mato Grosso do Sul]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Mato Grosso do Sul<br>
+<b>Localização:</b> Campo Grande, Mato Grosso do Sul<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/campogrande" target="_blank">http://www.bicicletada.org/campogrande</a>
+</div>]]>
+</description>
+<address>Campo Grande, Mato Grosso do Sul</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Mato Grosso do Sul</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/campogrande</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Minas Gerais]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Minas Gerais<br>
+<b>Localização:</b> Belo Horizonte, Minas Gerais<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Belo+Horizonte" target="_blank">http://www.bicicletada.org/Belo+Horizonte</a>
+</div>]]>
+</description>
+<address>Belo Horizonte, Minas Gerais</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Minas Gerais</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Belo+Horizonte</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Minas Gerais]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Minas Gerais<br>
+<b>Localização:</b> Conselheiro Lafaiete, Minas Gerais<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/conselheirolafaiete" target="_blank">http://www.bicicletada.org/conselheirolafaiete</a>
+</div>]]>
+</description>
+<address>Conselheiro Lafaiete, Minas Gerais</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Minas Gerais</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/conselheirolafaiete</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Minas Gerais]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Minas Gerais<br>
+<b>Localização:</b> Divinópolis, Minas Gerais<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/divinopolis" target="_blank">http://www.bicicletada.org/divinopolis</a>
+</div>]]>
+</description>
+<address>Divinópolis, Minas Gerais</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Minas Gerais</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/divinopolis</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Minas Gerais]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Minas Gerais<br>
+<b>Localização:</b> Juiz de Fora, Minas Gerais<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/juizdefora" target="_blank">http://www.bicicletada.org/juizdefora</a>
+</div>]]>
+</description>
+<address>Juiz de Fora, Minas Gerais</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Minas Gerais</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/juizdefora</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Minas Gerais]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Minas Gerais<br>
+<b>Localização:</b> Patos de Minas, Minas Gerais<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/patosdeminas" target="_blank">http://www.bicicletada.org/patosdeminas</a>
+</div>]]>
+</description>
+<address>Patos de Minas, Minas Gerais</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Minas Gerais</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/patosdeminas</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Minas Gerais]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Minas Gerais<br>
+<b>Localização:</b> São Lourenço, Minas Gerais<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/saolourenco" target="_blank">http://www.bicicletada.org/saolourenco</a>
+</div>]]>
+</description>
+<address>São Lourenço, Minas Gerais</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Minas Gerais</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/saolourenco</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Minas Gerais]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Minas Gerais<br>
+<b>Localização:</b> Uberaba, Minas Gerais<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/uberaba" target="_blank">http://www.bicicletada.org/uberaba</a>
+</div>]]>
+</description>
+<address>Uberaba, Minas Gerais</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Minas Gerais</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/uberaba</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Minas Gerais]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Minas Gerais<br>
+<b>Localização:</b> Uberlândia, Minas Gerais<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Uberlandia" target="_blank">http://www.bicicletada.org/Uberlandia</a>
+</div>]]>
+</description>
+<address>Uberlândia, Minas Gerais</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Minas Gerais</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Uberlandia</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Minas Gerais]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Minas Gerais<br>
+<b>Localização:</b> Varginha, Minas Gerais<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/varginha" target="_blank">http://www.bicicletada.org/varginha</a>
+</div>]]>
+</description>
+<address>Varginha, Minas Gerais</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Minas Gerais</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/varginha</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Minas Gerais]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Minas Gerais<br>
+<b>Localização:</b> Viçosa, Minas Gerais<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/vicosa" target="_blank">http://www.bicicletada.org/vicosa</a>
+</div>]]>
+</description>
+<address>Viçosa, Minas Gerais</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Minas Gerais</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/vicosa</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Pará]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Pará<br>
+<b>Localização:</b> Belém, Pará<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/belem" target="_blank">http://www.bicicletada.org/belem</a>
+</div>]]>
+</description>
+<address>Belém, Pará</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Pará</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/belem</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Pará]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Pará<br>
+<b>Localização:</b> Bragança, Pará<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/braganca" target="_blank">http://www.bicicletada.org/braganca</a>
+</div>]]>
+</description>
+<address>Bragança, Pará</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Pará</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/braganca</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Pará]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Pará<br>
+<b>Localização:</b> Marabá, Pará<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/maraba" target="_blank">http://www.bicicletada.org/maraba</a>
+</div>]]>
+</description>
+<address>Marabá, Pará</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Pará</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/maraba</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Paraíba]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Paraíba<br>
+<b>Localização:</b> Campina Grande, Paraíba<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/campinagrande" target="_blank">http://www.bicicletada.org/campinagrande</a>
+</div>]]>
+</description>
+<address>Campina Grande, Paraíba</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Paraíba</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/campinagrande</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Paraíba]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Paraíba<br>
+<b>Localização:</b> João Pessoa, Paraíba<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/joaopessoa" target="_blank">http://www.bicicletada.org/joaopessoa</a>
+</div>]]>
+</description>
+<address>João Pessoa, Paraíba</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Paraíba</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/joaopessoa</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Paraná]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Paraná<br>
+<b>Localização:</b> Apucarana, Paraná<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Apucarana" target="_blank">http://www.bicicletada.org/Apucarana</a>
+</div>]]>
+</description>
+<address>Apucarana, Paraná</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Paraná</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Apucarana</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Paraná]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Paraná<br>
+<b>Localização:</b> Cascavel, Paraná<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Cascavel" target="_blank">http://www.bicicletada.org/Cascavel</a>
+</div>]]>
+</description>
+<address>Cascavel, Paraná</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Paraná</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Cascavel</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Paraná]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Paraná<br>
+<b>Localização:</b> Curitiba, Paraná<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Curitiba" target="_blank">http://www.bicicletada.org/Curitiba</a>
+</div>]]>
+</description>
+<address>Curitiba, Paraná</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Paraná</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Curitiba</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Paraná]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Paraná<br>
+<b>Localização:</b> Foz do Iguaçu, Paraná<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/fozdoiguacu" target="_blank">http://www.bicicletada.org/fozdoiguacu</a>
+</div>]]>
+</description>
+<address>Foz do Iguaçu, Paraná</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Paraná</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/fozdoiguacu</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Paraná]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Paraná<br>
+<b>Localização:</b> Guarapuava, Paraná<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Guarapuava" target="_blank">http://www.bicicletada.org/Guarapuava</a>
+</div>]]>
+</description>
+<address>Guarapuava, Paraná</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Paraná</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Guarapuava</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Paraná]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Paraná<br>
+<b>Localização:</b> Irati, Paraná<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Irati" target="_blank">http://www.bicicletada.org/Irati</a>
+</div>]]>
+</description>
+<address>Irati, Paraná</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Paraná</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Irati</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Paraná]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Paraná<br>
+<b>Localização:</b> Londrina, Paraná<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Londrina" target="_blank">http://www.bicicletada.org/Londrina</a>
+</div>]]>
+</description>
+<address>Londrina, Paraná</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Paraná</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Londrina</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Paraná]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Paraná<br>
+<b>Localização:</b> Maringá, Paraná<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/maringa" target="_blank">http://www.bicicletada.org/maringa</a>
+</div>]]>
+</description>
+<address>Maringá, Paraná</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Paraná</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/maringa</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Paraná]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Paraná<br>
+<b>Localização:</b> Pato Branco, Paraná<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/patobranco" target="_blank">http://www.bicicletada.org/patobranco</a>
+</div>]]>
+</description>
+<address>Pato Branco, Paraná</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Paraná</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/patobranco</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Paraná]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Paraná<br>
+<b>Localização:</b> Ponta Grossa, Paraná<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/PontaGrossa" target="_blank">http://www.bicicletada.org/PontaGrossa</a>
+</div>]]>
+</description>
+<address>Ponta Grossa, Paraná</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Paraná</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/PontaGrossa</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Pernambuco]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Pernambuco<br>
+<b>Localização:</b> Recife, Pernambuco<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Recife" target="_blank">http://www.bicicletada.org/Recife</a>
+</div>]]>
+</description>
+<address>Recife, Pernambuco</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Pernambuco</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Recife</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Piauí]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Piauí<br>
+<b>Localização:</b> Teresina, Piauí<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Teresina" target="_blank">http://www.bicicletada.org/Teresina</a>
+</div>]]>
+</description>
+<address>Teresina, Piauí</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Piauí</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Teresina</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Rio de Janeiro]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Rio de Janeiro<br>
+<b>Localização:</b> Barra Mansa, Rio de Janeiro<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/BarraMansa" target="_blank">http://www.bicicletada.org/BarraMansa</a>
+</div>]]>
+</description>
+<address>Barra Mansa, Rio de Janeiro</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Rio de Janeiro</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/BarraMansa</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Rio de Janeiro]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Rio de Janeiro<br>
+<b>Localização:</b> Macaé, Rio de Janeiro<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/macae" target="_blank">http://www.bicicletada.org/macae</a>
+</div>]]>
+</description>
+<address>Macaé, Rio de Janeiro</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Rio de Janeiro</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/macae</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Rio de Janeiro]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Rio de Janeiro<br>
+<b>Localização:</b> Niterói, Rio de Janeiro<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/niteroi" target="_blank">http://www.bicicletada.org/niteroi</a>
+</div>]]>
+</description>
+<address>Niterói, Rio de Janeiro</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Rio de Janeiro</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/niteroi</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Rio de Janeiro]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Rio de Janeiro<br>
+<b>Localização:</b> Nova Friburgo, Rio de Janeiro<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/novafriburgo" target="_blank">http://www.bicicletada.org/novafriburgo</a>
+</div>]]>
+</description>
+<address>Nova Friburgo, Rio de Janeiro</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Rio de Janeiro</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/novafriburgo</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Rio de Janeiro]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Rio de Janeiro<br>
+<b>Localização:</b> Resende, Rio de Janeiro<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/resende" target="_blank">http://www.bicicletada.org/resende</a>
+</div>]]>
+</description>
+<address>Resende, Rio de Janeiro</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Rio de Janeiro</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/resende</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Rio de Janeiro]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Rio de Janeiro<br>
+<b>Localização:</b> Rio das Ostras, Rio de Janeiro<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/riodasostras" target="_blank">http://www.bicicletada.org/riodasostras</a>
+</div>]]>
+</description>
+<address>Rio das Ostras, Rio de Janeiro</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Rio de Janeiro</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/riodasostras</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Rio de Janeiro]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Rio de Janeiro<br>
+<b>Localização:</b> Rio de Janeiro, Rio de Janeiro<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/riodejaneiro" target="_blank">http://www.bicicletada.org/riodejaneiro</a>
+</div>]]>
+</description>
+<address>Rio de Janeiro, Rio de Janeiro</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Rio de Janeiro</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/riodejaneiro</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Rio de Janeiro]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Rio de Janeiro<br>
+<b>Localização:</b> Volta Redonda, Rio de Janeiro<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/VoltaRedonda" target="_blank">http://www.bicicletada.org/VoltaRedonda</a>
+</div>]]>
+</description>
+<address>Volta Redonda, Rio de Janeiro</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Rio de Janeiro</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/VoltaRedonda</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Rio Grande do Norte]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Rio Grande do Norte<br>
+<b>Localização:</b> Natal, Rio Grande do Norte<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Natal" target="_blank">http://www.bicicletada.org/Natal</a>
+</div>]]>
+</description>
+<address>Natal, Rio Grande do Norte</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Rio Grande do Norte</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Natal</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Rio Grande do Norte]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Rio Grande do Norte<br>
+<b>Localização:</b> Mossoró, Rio Grande do Norte<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Mossor%C3%B3" target="_blank">http://www.bicicletada.org/Mossor%C3%B3</a>
+</div>]]>
+</description>
+<address>Mossoró, Rio Grande do Norte</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Rio Grande do Norte</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Mossor%C3%B3</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Rio Grande do Sul]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Rio Grande do Sul<br>
+<b>Localização:</b> Cachoeira do Sul, Rio Grande do Sul<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/cachoeiradosul" target="_blank">http://www.bicicletada.org/cachoeiradosul</a>
+</div>]]>
+</description>
+<address>Cachoeira do Sul, Rio Grande do Sul</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Rio Grande do Sul</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/cachoeiradosul</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Rio Grande do Sul]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Rio Grande do Sul<br>
+<b>Localização:</b> Caxias do Sul, Rio Grande do Sul<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/CaxiasDoSul" target="_blank">http://www.bicicletada.org/CaxiasDoSul</a>
+</div>]]>
+</description>
+<address>Caxias do Sul, Rio Grande do Sul</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Rio Grande do Sul</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/CaxiasDoSul</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Rio Grande do Sul]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Rio Grande do Sul<br>
+<b>Localização:</b> Pelotas, Rio Grande do Sul<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/pelotas" target="_blank">http://www.bicicletada.org/pelotas</a>
+</div>]]>
+</description>
+<address>Pelotas, Rio Grande do Sul</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Rio Grande do Sul</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/pelotas</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Rio Grande do Sul]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Rio Grande do Sul<br>
+<b>Localização:</b> Porto Alegre, Rio Grande do Sul<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/portoalegre" target="_blank">http://www.bicicletada.org/portoalegre</a>
+</div>]]>
+</description>
+<address>Porto Alegre, Rio Grande do Sul</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Rio Grande do Sul</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/portoalegre</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Rio Grande do Sul]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Rio Grande do Sul<br>
+<b>Localização:</b> Rio Grande, Rio Grande do Sul<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/riogrande" target="_blank">http://www.bicicletada.org/riogrande</a>
+</div>]]>
+</description>
+<address>Rio Grande, Rio Grande do Sul</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Rio Grande do Sul</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/riogrande</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Santa Catarina]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Santa Catarina<br>
+<b>Localização:</b> Araranguá, Santa Catarina<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/ararangua" target="_blank">http://www.bicicletada.org/ararangua</a>
+</div>]]>
+</description>
+<address>Araranguá, Santa Catarina</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Santa Catarina</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/ararangua</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Santa Catarina]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Santa Catarina<br>
+<b>Localização:</b> Blumenau, Santa Catarina<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/blumenau" target="_blank">http://www.bicicletada.org/blumenau</a>
+</div>]]>
+</description>
+<address>Blumenau, Santa Catarina</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Santa Catarina</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/blumenau</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Santa Catarina]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Santa Catarina<br>
+<b>Localização:</b> Florianópolis, Santa Catarina<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Florianopolis" target="_blank">http://www.bicicletada.org/Florianopolis</a>
+</div>]]>
+</description>
+<address>Florianópolis, Santa Catarina</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Santa Catarina</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Florianopolis</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Santa Catarina]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Santa Catarina<br>
+<b>Localização:</b> Itajaí, Santa Catarina<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Itajai" target="_blank">http://www.bicicletada.org/Itajai</a>
+</div>]]>
+</description>
+<address>Itajaí, Santa Catarina</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Santa Catarina</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Itajai</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Santa Catarina]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Santa Catarina<br>
+<b>Localização:</b> Joinville, Santa Catarina<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Joinville" target="_blank">http://www.bicicletada.org/Joinville</a>
+</div>]]>
+</description>
+<address>Joinville, Santa Catarina</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Santa Catarina</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Joinville</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Santa Catarina]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Santa Catarina<br>
+<b>Localização:</b> Timbó, Santa Catarina<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Timbo" target="_blank">http://www.bicicletada.org/Timbo</a>
+</div>]]>
+</description>
+<address>Timbó, Santa Catarina</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Santa Catarina</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Timbo</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> Águas de São Pedro, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/aguasdesaopedro" target="_blank">http://www.bicicletada.org/aguasdesaopedro</a>
+</div>]]>
+</description>
+<address>Águas de São Pedro, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/aguasdesaopedro</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> Araçatuba, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/aracatuba" target="_blank">http://www.bicicletada.org/aracatuba</a>
+</div>]]>
+</description>
+<address>Araçatuba, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/aracatuba</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> Araraquara, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Araraquara" target="_blank">http://www.bicicletada.org/Araraquara</a>
+</div>]]>
+</description>
+<address>Araraquara, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Araraquara</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> Americana, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/americana" target="_blank">http://www.bicicletada.org/americana</a>
+</div>]]>
+</description>
+<address>Americana, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/americana</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> Botucatu, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/botucatu" target="_blank">http://www.bicicletada.org/botucatu</a>
+</div>]]>
+</description>
+<address>Botucatu, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/botucatu</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> Brotas, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/brotas" target="_blank">http://www.bicicletada.org/brotas</a>
+</div>]]>
+</description>
+<address>Brotas, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/brotas</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> Campinas, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Campinas" target="_blank">http://www.bicicletada.org/Campinas</a>
+</div>]]>
+</description>
+<address>Campinas, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Campinas</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> Campo Limpo Paulista, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/CampoLimpoPaulista" target="_blank">http://www.bicicletada.org/CampoLimpoPaulista</a>
+</div>]]>
+</description>
+<address>Campo Limpo Paulista, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/CampoLimpoPaulista</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> Catanduva, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/catanduva" target="_blank">http://www.bicicletada.org/catanduva</a>
+</div>]]>
+</description>
+<address>Catanduva, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/catanduva</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> Grande ABC, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/GrandeABC" target="_blank">http://www.bicicletada.org/GrandeABC</a>
+</div>]]>
+</description>
+<address>Grande ABC, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/GrandeABC</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> Indaiatuba, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/indaiatuba" target="_blank">http://www.bicicletada.org/indaiatuba</a>
+</div>]]>
+</description>
+<address>Indaiatuba, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/indaiatuba</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> Jacareí, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/jacarei" target="_blank">http://www.bicicletada.org/jacarei</a>
+</div>]]>
+</description>
+<address>Jacareí, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/jacarei</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> Jundiaí, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/jundiai" target="_blank">http://www.bicicletada.org/jundiai</a>
+</div>]]>
+</description>
+<address>Jundiaí, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/jundiai</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> Lorena, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Lorena" target="_blank">http://www.bicicletada.org/Lorena</a>
+</div>]]>
+</description>
+<address>Lorena, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Lorena</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> Osasco, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Osasco" target="_blank">http://www.bicicletada.org/Osasco</a>
+</div>]]>
+</description>
+<address>Osasco, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Osasco</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> Piracicaba, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/piracicaba" target="_blank">http://www.bicicletada.org/piracicaba</a>
+</div>]]>
+</description>
+<address>Piracicaba, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/piracicaba</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> Presidente Prudente, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Presidente+Prudente" target="_blank">http://www.bicicletada.org/Presidente+Prudente</a>
+</div>]]>
+</description>
+<address>Presidente Prudente, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Presidente+Prudente</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> Ribeirão Preto, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/RibeiraoPreto" target="_blank">http://www.bicicletada.org/RibeiraoPreto</a>
+</div>]]>
+</description>
+<address>Ribeirão Preto, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/RibeiraoPreto</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> Rio Claro, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/RioClaro" target="_blank">http://www.bicicletada.org/RioClaro</a>
+</div>]]>
+</description>
+<address>Rio Claro, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/RioClaro</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> Santo André, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/SantoAndre" target="_blank">http://www.bicicletada.org/SantoAndre</a>
+</div>]]>
+</description>
+<address>Santo André, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/SantoAndre</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> Santos, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/santos" target="_blank">http://www.bicicletada.org/santos</a>
+</div>]]>
+</description>
+<address>Santos, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/santos</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> São Carlos, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/SaoCarlos" target="_blank">http://www.bicicletada.org/SaoCarlos</a>
+</div>]]>
+</description>
+<address>São Carlos, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/SaoCarlos</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> São João da Boa Vista, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/saojoaodaboavista" target="_blank">http://www.bicicletada.org/saojoaodaboavista</a>
+</div>]]>
+</description>
+<address>São João da Boa Vista, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/saojoaodaboavista</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> São José do Rio Preto, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/SaoJosedoRioPreto" target="_blank">http://www.bicicletada.org/SaoJosedoRioPreto</a>
+</div>]]>
+</description>
+<address>São José do Rio Preto, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/SaoJosedoRioPreto</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> São José dos Campos, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/SJC" target="_blank">http://www.bicicletada.org/SJC</a>
+</div>]]>
+</description>
+<address>São José dos Campos, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/SJC</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> São Paulo, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/saopaulo" target="_blank">http://www.bicicletada.org/saopaulo</a>
+</div>]]>
+</description>
+<address>São Paulo, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/saopaulo</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> São Sebastião, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/saosebastiao" target="_blank">http://www.bicicletada.org/saosebastiao</a>
+</div>]]>
+</description>
+<address>São Sebastião, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/saosebastiao</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> Sorocaba, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Sorocaba" target="_blank">http://www.bicicletada.org/Sorocaba</a>
+</div>]]>
+</description>
+<address>Sorocaba, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Sorocaba</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> Taubate, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/taubate" target="_blank">http://www.bicicletada.org/taubate</a>
+</div>]]>
+</description>
+<address>Taubate, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/taubate</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[São Paulo]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> São Paulo<br>
+<b>Localização:</b> Vargem Grande Paulista, São Paulo<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/vargemgrandepaulista" target="_blank">http://www.bicicletada.org/vargemgrandepaulista</a>
+</div>]]>
+</description>
+<address>Vargem Grande Paulista, São Paulo</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>São Paulo</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/vargemgrandepaulista</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Sergipe]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Sergipe<br>
+<b>Localização:</b> Aracaju, Sergipe<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Aracaju" target="_blank">http://www.bicicletada.org/Aracaju</a>
+</div>]]>
+</description>
+<address>Aracaju, Sergipe</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Sergipe</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Aracaju</value>
+</Data>
+</ExtendedData>
+</Placemark>
+<Placemark>
+<name><![CDATA[Tocantins]]></name>
+<styleUrl>#BasicStyle</styleUrl>
+<description>
+<![CDATA[<div class="googft-info-window" style="font-family:sans-serif">
+<b>Estado:</b> Tocantins<br>
+<b>Localização:</b> Palmas, Tocantins<br>
+<b>URL:</b> <a href="http://www.bicicletada.org/Palmas" target="_blank">http://www.bicicletada.org/Palmas</a>
+</div>]]>
+</description>
+<address>Palmas, Tocantins</address>
+
+<ExtendedData>
+<Data name="Estado">
+<value>Tocantins</value>
+</Data>
+<Data name="URL">
+<value>http://www.bicicletada.org/Palmas</value>
+</Data>
+</ExtendedData>
+</Placemark>
+</Folder>
+</Document>
+</kml>
