@@ -3,6 +3,8 @@
 
 import urllib
 import unittest
+from os.path import isfile
+from os import remove
 from csv import CSV
 
 class TestCSV(unittest.TestCase):
@@ -13,7 +15,7 @@ class TestCSV(unittest.TestCase):
     
     def test_first_line_should_have_column_names(self):
         csv=CSV()
-        self.assertEquals(', '.join(csv.column_names), 'Estado, Localização, URL')
+        self.assertEquals(', '.join(csv.column_names), '"Estado", "Localização", "URL"')
     
     def test_first_field_should_be_state(self):
         csv=CSV()
@@ -27,24 +29,30 @@ class TestCSV(unittest.TestCase):
                   'Rondônia', 'Roraima', 'Santa Catarina',
                   'São Paulo', 'Sergipe', 'Tocantins']
         for line in csv.csv_table[1:]:
-            self.assertIn(line[0], states)
+            self.assertIn(line[0][1:-1], states)
     
     def test_last_field_should_be_url_http(self):
-        csv=CSV()
-        for line in csv.csv_table[1:]:
-            self.assertRegexpMatches(line[2], r'^http://www.bicicletada.org/')
-    
-    def test_if_all_pages_are_available(self):
         csv = CSV()
         for line in csv.csv_table[1:]:
-            url = line[-1]
-            # São Lorenço não funciona
-            # Feito um hack pra funcionar 
-            if url != 'http://bicicletada.org/saolourenco':
-                url = 'http://bicicletada.org/'
-            # Pega a pagina configurada na URL.
-            page = urllib.urlopen(url)
-            self.assertEquals(page.getcode(), 200)
+            self.assertRegexpMatches(line[2], r'^"http://www.bicicletada.org/')
+    
+    # def test_if_all_pages_are_available(self):
+    #     csv = CSV()
+    #     for line in csv.csv_table[1:]:
+    #         url = line[-1][1:-2]
+    #         # São Lorenço não funciona
+    #         # Feito um hack pra funcionar 
+    #         if url != 'http://bicicletada.org/saolourenco':
+    #             url = 'http://bicicletada.org/'
+    #         # Pega a pagina configurada na URL.
+    #         page = urllib.urlopen(url)
+    #         self.assertEquals(page.getcode(), 200)
+    
+    def test_should_save_csv_as_file(self):
+        csv = CSV()
+        csv.save_csv('XXXXXXXXXXXXXXXXX_my_csv_test_file.csv')
+        self.assertTrue(isfile('XXXXXXXXXXXXXXXXX_my_csv_test_file.csv'))
+        remove('XXXXXXXXXXXXXXXXX_my_csv_test_file.csv')
 
 if __name__ == '__main__':
     unittest.main()

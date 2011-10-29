@@ -41,6 +41,8 @@ class Parser(object):
                 for city in l[1:]:
                     if city != '':
                         location = '%s, %s' % (city, state)
-                        table.append([state, location, 'http://www.bicicletada.org/' +  urls[cont]])
+                        table.append(['"%s"' % state,
+                                      '"%s"' % location,
+                                      '"%s"' % ('http://www.bicicletada.org/' +  urls[cont])])
                         cont += 1
         return table
