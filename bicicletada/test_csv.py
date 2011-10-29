@@ -53,6 +53,12 @@ class TestCSV(unittest.TestCase):
         csv.save_csv('XXXXXXXXXXXXXXXXX_my_csv_test_file.csv')
         self.assertTrue(isfile('XXXXXXXXXXXXXXXXX_my_csv_test_file.csv'))
         remove('XXXXXXXXXXXXXXXXX_my_csv_test_file.csv')
+    
+    def test_should_all_lines_have_same_quantity_fields(self):
+        csv = CSV()
+        field_number = len(csv.csv_table[0])
+        for line in csv.csv_table[1:]:
+            self.assertEquals(len(line), field_number)
 
 if __name__ == '__main__':
     unittest.main()
