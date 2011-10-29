@@ -3,8 +3,6 @@
 
 import unittest
 from page import Page
-from page import CSV
-
 
 class TestPage(unittest.TestCase):
 
@@ -15,13 +13,6 @@ class TestPage(unittest.TestCase):
     def test_if_content_is_HTML(self):
         page=Page()
         self.assertEquals(page.content.endswith('</html>'), True)
-
-
-class TestCSV(unittest.TestCase):
-
-    def test_if_there_are_3_fields(self):
-        csv=CSV()
-        self.assertEquals(len(csv.fields), 3)
 
 if __name__ == '__main__':
     unittest.main()
