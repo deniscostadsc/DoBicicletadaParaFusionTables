@@ -36,17 +36,17 @@ class TestCSV(unittest.TestCase):
         for line in csv.csv_table[1:]:
             self.assertRegexpMatches(line[2], r'^"http://www.bicicletada.org/')
     
-    # def test_if_all_pages_are_available(self):
-    #     csv = CSV()
-    #     for line in csv.csv_table[1:]:
-    #         url = line[-1][1:-2]
-    #         # São Lorenço não funciona
-    #         # Feito um hack pra funcionar 
-    #         if url != 'http://bicicletada.org/saolourenco':
-    #             url = 'http://bicicletada.org/'
-    #         # Pega a pagina configurada na URL.
-    #         page = urllib.urlopen(url)
-    #         self.assertEquals(page.getcode(), 200)
+    def test_if_all_pages_are_available(self):
+        csv = CSV()
+        for line in csv.csv_table[1:]:
+            url = line[-1][1:-2]
+            # São Lorenço não funciona
+            # Feito um hack pra funcionar 
+            if url != 'http://bicicletada.org/saolourenco':
+                url = 'http://bicicletada.org/'
+            # Pega a pagina configurada na URL.
+            page = urllib.urlopen(url)
+            self.assertEquals(page.getcode(), 200)
     
     def test_should_save_csv_as_file(self):
         csv = CSV()
