@@ -1,0 +1,513 @@
+<!DOCTYPE html 
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br" id="page_1">
+	<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="generator" content="Tiki Wiki CMS Groupware - http://tiki.org" />
+
+
+<title>Home page</title>
+
+	<link rel="icon" href="dl29" />
+
+
+	<link rel="StyleSheet" href="lib/phplayers/layerstreemenu.css" type="text/css" />
+<link rel="StyleSheet" href="lib/phplayers/layerstreemenu-hidden.css" type="text/css" />
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var numl;var toBeHidden;// PHP Layers Menu 3.2.0-rc (C) 2001-2004 Marco Pratesi - http://www.marcopratesi.it/
+
+DOM = (document.getElementById) ? 1 : 0;
+NS4 = (document.layers) ? 1 : 0;
+// We need to explicitly detect Konqueror
+// because Konqueror 3 sets IE = 1 ... AAAAAAAAAARGHHH!!!
+Konqueror = (navigator.userAgent.indexOf('Konqueror') > -1) ? 1 : 0;
+// We need to detect Konqueror 2.2 as it does not handle the window.onresize event
+Konqueror22 = (navigator.userAgent.indexOf('Konqueror 2.2') > -1 || navigator.userAgent.indexOf('Konqueror/2.2') > -1) ? 1 : 0;
+Konqueror30 =
+	(
+		navigator.userAgent.indexOf('Konqueror 3.0') > -1
+		|| navigator.userAgent.indexOf('Konqueror/3.0') > -1
+		|| navigator.userAgent.indexOf('Konqueror 3;') > -1
+		|| navigator.userAgent.indexOf('Konqueror/3;') > -1
+		|| navigator.userAgent.indexOf('Konqueror 3)') > -1
+		|| navigator.userAgent.indexOf('Konqueror/3)') > -1
+	)
+	? 1 : 0;
+Konqueror31 = (navigator.userAgent.indexOf('Konqueror 3.1') > -1 || navigator.userAgent.indexOf('Konqueror/3.1') > -1) ? 1 : 0;
+// We need to detect Konqueror 3.2 and 3.3 as they are affected by the see-through effect only for 2 form elements
+Konqueror32 = (navigator.userAgent.indexOf('Konqueror 3.2') > -1 || navigator.userAgent.indexOf('Konqueror/3.2') > -1) ? 1 : 0;
+Konqueror33 = (navigator.userAgent.indexOf('Konqueror 3.3') > -1 || navigator.userAgent.indexOf('Konqueror/3.3') > -1) ? 1 : 0;
+Opera = (navigator.userAgent.indexOf('Opera') > -1) ? 1 : 0;
+Opera5 = (navigator.userAgent.indexOf('Opera 5') > -1 || navigator.userAgent.indexOf('Opera/5') > -1) ? 1 : 0;
+Opera6 = (navigator.userAgent.indexOf('Opera 6') > -1 || navigator.userAgent.indexOf('Opera/6') > -1) ? 1 : 0;
+Opera56 = Opera5 || Opera6;
+IE = (navigator.userAgent.indexOf('MSIE') > -1) ? 1 : 0;
+IE = IE && !Opera;
+IE5 = IE && DOM;
+IE4 = (document.all) ? 1 : 0;
+IE4 = IE4 && IE && !DOM;
+
+//--><!]]>
+</script>
+
+
+
+
+
+
+
+		
+<link rel="stylesheet" href="css/cssmenus.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="styles/layout/fixed_width.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="lib/jquery/jquery-ui/themes/smoothness/jquery-ui.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="lib/jquery/cluetip/jquery.cluetip.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="lib/jquery/jquery-autocomplete/jquery.autocomplete.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="lib/jquery/colorbox/styles/colorbox.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="lib/jquery/treeTable/src/stylesheets/jquery.treeTable.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="styles/fivealive.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/cssmenus.css" type="text/css" media="print" />
+<link rel="stylesheet" href="styles/layout/fixed_width.css" type="text/css" media="print" />
+<link rel="stylesheet" href="lib/jquery/jquery-ui/themes/smoothness/jquery-ui.css" type="text/css" media="print" />
+<link rel="stylesheet" href="lib/jquery/cluetip/jquery.cluetip.css" type="text/css" media="print" />
+<link rel="stylesheet" href="lib/jquery/jquery-autocomplete/jquery.autocomplete.css" type="text/css" media="print" />
+<link rel="stylesheet" href="lib/jquery/colorbox/styles/colorbox.css" type="text/css" media="print" />
+<link rel="stylesheet" href="lib/jquery/treeTable/src/stylesheets/jquery.treeTable.css" type="text/css" media="print" />
+<link rel="stylesheet" href="styles/fivealive.css" type="text/css" media="print" />
+<!--[if lt IE 7]>
+<link rel="stylesheet" href="css/ie6.css" type="text/css" />
+<link rel="stylesheet" href="styles/fivealive/ie6.css" type="text/css" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" href="css/ie7.css" type="text/css" />
+<link rel="stylesheet" href="styles/fivealive/ie7.css" type="text/css" />
+<![endif]-->
+<!--[if IE 8]>
+<link rel="stylesheet" href="css/ie8.css" type="text/css" />
+<![endif]-->
+
+	
+<style type="text/css">
+#header, #header-top {
+  background: url('') no-repeat;
+}
+
+#header-top {
+  min-height: 120px;
+}
+
+div#sitelogo img {
+  margin:0em;
+}
+
+#siteloginbar_popup {
+  right:142px;
+}
+</style>
+
+	</head>
+	<body class="tiki tiki_wiki_page fixed_width ">
+		<ul class="jumplinks" style="position:absolute;top:-9000px;left:-9000px;z-index:9;">
+			<li><a href="#tiki-center" title="Jump to Content">Jump to Content</a></li>
+		</ul>
+
+
+
+
+	
+	<div id="ajaxLoading">Carregando...</div>
+<div id="ajaxLoadingBG">&nbsp;</div>
+<div id="ajaxDebug"></div>
+	<div id="fixedwidth"> 
+			<div id="main">
+										<div class="clearfix" id="header">
+		
+				<div class="clearfix" id="siteheader">
+		
+
+
+
+
+<div class="clearfix" id="header-top">
+
+
+
+		
+
+
+
+	
+
+
+
+
+
+	<div class="clearfix" id="sioptionscentered">
+						<div id="sitelogo"	>
+			<a href="./" title="bicicletada.org"><img src="dl30" alt="bicicletada.org" /></a>		</div>
+			</div>
+
+
+
+
+
+<div id="siteloginbar_popup">
+	<ul class="clearfix cssmenu_horiz">
+					<li class="login_link tabmark" id="register_link"><a href="tiki-register.php" class="register_link" title="Clique aqui para registrar"><span>Registrar-se</span></a>
+			</li>
+																<li class="tabmark" id="login_link"><a href="tiki-login_scr.php" class="login_link"><span>Entrar</span></a>
+						<ul>
+							<li>
+								<div class="cbox">
+
+<div id="siteloginbar"><form class="forms" id="loginbox" action="tiki-login.php" method="post" ><fieldset><label for="sl-login-user">Usuário:</label><input type="text" name="user" id="sl-login-user" /><label for="sl-login-pass">Senha:</label><input type="password" name="pass" id="sl-login-pass" size="10" /><input class="wikiaction" type="submit" name="login" value="Entrar" /></fieldset><div><span class="pass"><a href="tiki-remind_password.php" title="Clique aqui se você esqueceu sua senha">Esqueci minha senha</a></span><span class="register">&nbsp;<a href="tiki-register.php" title="Clique aqui para registrar">Registrar-se</a></span></div></form></div></div>
+							</li>
+						</ul>
+					</li>
+										</ul>
+</div>
+<!--[if IE]><br style="clear:both; height: 0" /><![endif]-->
+</div>
+
+<div class="clearfix" id="tiki-top"><div class="wrapper"> 
+
+	
+
+			<div class="role_navigation">
+			<ul id="cssmenu1" class="cssmenu_horiz menu43"><li class="option190 menuOption menuLevel0 selected"><a href="Home+page"><span class="menuText">Página inicial</span></a></li><li class="option192 menuOption menuLevel0"><a href="O+que+e"><span class="menuText">O que é</span></a></li><li class="option193 menuOption menuLevel0"><a href="Multimidia"><span class="menuText">Multimídia</span></a></li><li class="option342 menuOption menuLevel0"><a href="http://planeta.bicicletada.org"><span class="menuText">Planeta</span></a></li><li class="option197 menuOption menuLevel0"><a href="FAQ"><span class="menuText">FAQ</span></a></li><li class="option445 menuOption menuLevel0"><a href="ajuda"><span class="menuText">Ajuda</span></a></li><li class="option191 menuOption menuLevel0"><a href="Contato"><span class="menuText">Contato</span></a></li></ul>
+</div>
+	
+
+
+</div></div> 
+
+				</div>
+			</div>
+			<div class="clearfix" id="middle">
+				<div class="clearfix nofullscreen" id="c1c2">
+					<div class="clearfix" id="wrapper">
+						<div id="col1" class="marginleft">
+
+	
+
+							<div id="tiki-center"  class="clearfix content">
+							<div id="role_main">
+ 
+	
+ 
+
+
+
+ 
+
+	<div class="wikitopline clearfix" style="clear: both;">
+	<div class="content">
+				<div class="wikiinfo" style="float: left">
+
+
+
+
+
+		</div>
+		<div class="wikiactions" style="float: right; padding-left:10px; white-space: nowrap">
+			<div class="icons" style="float: left;">
+					
+								</div><!-- END of icons -->
+
+	
+	
+			</div>
+ 
+ 
+	</div> 
+</div> 
+	
+
+
+
+<div id="top" class="wikitext clearfix nopagetitle">
+			
+		
+		
+		
+		
+			 
+
+	
+			<h1 class="showhide_heading" id="Bem-vindo_">Bem-vindo!</h1>
+<div style=" text-align: center; float: right;"  >
+	<img src="img/wiki_up/um-carro-a-menos_outra2.jpg" alt="Image" /><br />
+</div><br />
+<br />
+A Bicicletada é um movimento sem líderes inspirada na Massa Crítica, ou Critical Mass, uma &quot;coincidência organizada&quot; que começou a tomar as ruas de São Franscisco nos EUA no início dos anos 90.<br />
+<br />
+Veja a definição de <a class="wiki external" target="_blank" href="http://pt.wikipedia.org/wiki/Bicicletada" rel="external nofollow">Bicicletada</a><img src="img/icons/external_link.gif" alt="(external link)" width="15" height="14" style="border: none" title="(external link)" class="icon" /> e <a class="wiki external" target="_blank" href="http://pt.wikipedia.org/wiki/Massa_Cr%C3%ADtica" rel="external nofollow">Massa Crítica</a><img src="img/icons/external_link.gif" alt="(external link)" width="15" height="14" style="border: none" title="(external link)" class="icon" /> na wikipedia, e a página de <a class="wiki"  href="Legislação" rel="">Legislação</a> para referências.<br />
+<br />
+As bicicletadas brasileiras, bem como esse site, são uma criação coletiva de todos os participantes, portanto fiquem à vontade para criar a sua própria bicicletada e alterar o conteúdo.<br />
+<br />
+Por aqui, usa-se CMS (Content Management System, ou Sistema de Gerenciamento de Conteúdo) que permite que usuários registrados possam editar as páginas e também enviar arquivos e fotos. Para se registrar clique em &quot;Entrar&quot; e depois em &quot;Registre-se&quot;. Na página de <a href="ajuda" title="ajuda" class="wiki">ajuda</a> você encontra algumas instruções sobre como contribuir.<br />
+<br />
+<h1 class="showhide_heading" id="Escolha_uma_cidade_no_menu_da_esquerda">Escolha uma cidade no menu da esquerda</h1>
+<br />
+<br />
+
+	
+	
+	<hr class="hrwikibottom" /> 
+
+	
+	</div> 
+
+
+
+
+	<p class="editdate">
+			Contribuíram para esta página: <span class='link'>palmas</span>
+						,
+				<span class='link'>umcarroamenos</span>
+						,
+				<span class='link'>thiago</span>
+						,
+				<span class='link'>silvia</span>
+						,
+				<span class='link'>rodrigo</span>
+						,
+				<span class='link'>ribeiro</span>
+						,
+				<span class='link'>pedalante</span>
+						,
+				<span class='link'>paulo_lutkenhaus</span>
+						,
+				<span class='link'>murilocrds</span>
+						,
+				<span class='link'>mineiro_em_recife</span>
+						,
+				<span class='link'>kawanha</span>
+						,
+				<span class='link'>jonasbarbetta</span>
+						,
+				<span class='link'>joaorodrigocampos</span>
+						,
+				<span class='link'>jlpinha</span>
+						,
+				<span class='link'>ianthomaz</span>
+						,
+				<span class='link'>gira</span>
+						,
+				<span class='link'>dysprosio</span>
+						,
+				<span class='link'>diogogeo</span>
+						,
+				<span class='link'>diogo</span>
+						,
+				<span class='link'>ciclovoador</span>
+						,
+				<span class='link'>ciclistasdemaceio</span>
+						,
+				<span class='link'>caiosarava</span>
+						,
+				<span class='link'>badbass55</span>
+						,
+				<span class='link'>apgrion</span>
+			 
+			e
+				<a class='link' href='user1' >admin</a>
+	.
+	<br />
+	Última modificação da página em Quinta-feira 20 de Outubro, 2011 12:45:37 BRST por <span class='link'>palmas</span>. 
+	
+
+	</p>
+
+
+
+			
+<div class="clearfix" id="page-bar"><span class="button"><a href="/tiki-pagehistory.php?page=Home+page&amp;source=0">Fonte</a></span><span class="button"><a href="/tiki-pagehistory.php?page=Home+page">Histórico</a></span></div>	  
+</div>
+
+							</div>						</div>
+					</div>
+
+					<hr class="hidden" />
+						<div id="col2">
+						<h2 class="hidden">Sidebar</h2>
+						<div class="content">
+					
+
+
+	<div class="box box-Estados cssmenubox">
+			<h3 class="box-title clearfix">
+						<span class="moduletitle">Estados</span>
+						<!--[if IE]><br class="clear" style="height: 1px !important" /><![endif]--></h3>
+			<div id="mod-Estadosl4" style="display: block" class="clearfix box-data">
+
+<div id="Estados" style="display:block;">
+<div class="role_navigation">
+			<ul id="cssmenu0" class="cssmenu_vert menu46"><li class="option294 menuSection menuSection0 menuLevel0"><a href=""><span class="menuText">Alagoas</span></a><ul><li class="option369 menuOption menuLevel1"><a href="Maceio"><span class="menuText">Maceió</span></a></li></ul></li><li class="option418 menuSection menuSection0 menuLevel0"><a href=""><span class="menuText">Amapá</span></a><ul><li class="option419 menuOption menuLevel1"><a href="Macapa"><span class="menuText">Macapá</span></a></li></ul></li><li class="option403 menuSection menuSection0 menuLevel0"><a href=""><span class="menuText">Amazonas</span></a><ul><li class="option404 menuOption menuLevel1"><a href="manaus"><span class="menuText">Manaus</span></a></li></ul></li><li class="option296 menuSection menuSection0 menuLevel0"><a href=""><span class="menuText">Bahia</span></a><ul><li class="option297 menuOption menuLevel1"><a href="Salvador"><span class="menuText">Salvador</span></a></li><li class="option298 menuOption menuLevel1"><a href="Vit%C3%B3ria+da+Conquista"><span class="menuText">Vitória da Conquista</span></a></li></ul></li><li class="option295 menuSection menuSection0 menuLevel0"><a href=""><span class="menuText">Ceará</span></a><ul><li class="option370 menuOption menuLevel1"><a href="Fortaleza"><span class="menuText">Fortaleza</span></a></li></ul></li><li class="option299 menuSection menuSection0 menuLevel0"><a href=""><span class="menuText">Distrito Federal</span></a><ul><li class="option300 menuOption menuLevel1"><a href="bras%C3%ADlia"><span class="menuText">Brasília</span></a></li></ul></li><li class="option334 menuSection menuSection0 menuLevel0"><a href=""><span class="menuText">Espírito Santo</span></a><ul><li class="option335 menuOption menuLevel1"><a href="Vitoria"><span class="menuText">Vitória</span></a></li></ul></li><li class="option325 menuSection menuSection0 menuLevel0"><a href=""><span class="menuText">Goiás</span></a><ul><li class="option327 menuOption menuLevel1"><a href="Goiania"><span class="menuText">Goiânia</span></a></li></ul></li><li class="option415 menuSection menuSection0 menuLevel0"><a href=""><span class="menuText">Maranhão</span></a><ul><li class="option416 menuOption menuLevel1"><a href="saoluis"><span class="menuText">São Luis</span></a></li></ul></li><li class="option371 menuSection menuSection0 menuLevel0"><a href=""><span class="menuText">Mato Grosso</span></a><ul><li class="option372 menuOption menuLevel1"><a href="cuiaba"><span class="menuText">Cuiabá</span></a></li></ul></li><li class="option351 menuSection menuSection0 menuLevel0"><a href=""><span class="menuText">Mato Grosso do Sul</span></a><ul><li class="option352 menuOption menuLevel1"><a href="campogrande"><span class="menuText">Campo Grande</span></a></li></ul></li><li class="option301 menuSection menuSection0 menuLevel0"><a href=""><span class="menuText">Minas Gerais</span></a><ul><li class="option302 menuOption menuLevel1"><a href="Belo+Horizonte"><span class="menuText">Belo Horizonte</span></a></li><li class="option457 menuOption menuLevel1"><a href="conselheirolafaiete"><span class="menuText">Conselheiro Lafaiete</span></a></li><li class="option462 menuOption menuLevel1"><a href="divinopolis"><span class="menuText">Divinópolis</span></a></li><li class="option450 menuOption menuLevel1"><a href="juizdefora"><span class="menuText">Juiz de Fora</span></a></li><li class="option407 menuOption menuLevel1"><a href="patosdeminas"><span class="menuText">Patos de Minas</span></a></li><li class="option459 menuOption menuLevel1"><a href="saolourenco"><span class="menuText">São Lourenço</span></a></li><li class="option359 menuOption menuLevel1"><a href="uberaba"><span class="menuText">Uberaba</span></a></li><li class="option346 menuOption menuLevel1"><a href="Uberlandia"><span class="menuText">Uberlândia</span></a></li><li class="option399 menuOption menuLevel1"><a href="varginha"><span class="menuText">Varginha</span></a></li><li class="option456 menuOption menuLevel1"><a href="vicosa"><span class="menuText">Viçosa</span></a></li></ul></li><li class="option357 menuSection menuSection0 menuLevel0"><a href=""><span class="menuText">Pará</span></a><ul><li class="option358 menuOption menuLevel1"><a href="belem"><span class="menuText">Belém</span></a></li><li class="option361 menuOption menuLevel1"><a href="braganca"><span class="menuText">Bragança</span></a></li><li class="option447 menuOption menuLevel1"><a href="maraba"><span class="menuText">Marabá</span></a></li></ul></li><li class="option422 menuSection menuSection0 menuLevel0"><a href=""><span class="menuText">Paraíba</span></a><ul><li class="option423 menuOption menuLevel1"><a href="campinagrande"><span class="menuText">Campina Grande</span></a></li><li class="option455 menuOption menuLevel1"><a href="joaopessoa"><span class="menuText">João Pessoa</span></a></li></ul></li><li class="option303 menuSection menuSection0 menuLevel0"><a href=""><span class="menuText">Paraná</span></a><ul><li class="option409 menuOption menuLevel1"><a href="Apucarana"><span class="menuText">Apucarana</span></a></li><li class="option414 menuOption menuLevel1"><a href="Cascavel"><span class="menuText">Cascavel</span></a></li><li class="option304 menuOption menuLevel1"><a href="Curitiba"><span class="menuText">Curitiba</span></a></li><li class="option458 menuOption menuLevel1"><a href="fozdoiguacu"><span class="menuText">Foz do Iguaçu</span></a></li><li class="option305 menuOption menuLevel1"><a href="Guarapuava"><span class="menuText">Guarapuava</span></a></li><li class="option366 menuOption menuLevel1"><a href="Irati"><span class="menuText">Irati</span></a></li><li class="option400 menuOption menuLevel1"><a href="Londrina"><span class="menuText">Londrina</span></a></li><li class="option353 menuOption menuLevel1"><a href="maringa"><span class="menuText">Maringá</span></a></li><li class="option406 menuOption menuLevel1"><a href="patobranco"><span class="menuText">Pato Branco</span></a></li><li class="option306 menuOption menuLevel1"><a href="((PontaGrossa)"><span class="menuText">Ponta Grossa</span></a></li></ul></li><li class="option347 menuSection menuSection0 menuLevel0"><a href=""><span class="menuText">Pernambuco</span></a><ul><li class="option348 menuOption menuLevel1"><a href="Recife"><span class="menuText">Recife</span></a></li></ul></li><li class="option343 menuSection menuSection0 menuLevel0"><a href=""><span class="menuText">Piauí</span></a><ul><li class="option344 menuOption menuLevel1"><a href="Teresina"><span class="menuText">Teresina</span></a></li></ul></li><li class="option307 menuSection menuSection0 menuLevel0"><a href=""><span class="menuText">Rio de Janeiro</span></a><ul><li class="option332 menuOption menuLevel1"><a href="BarraMansa"><span class="menuText">Barra Mansa</span></a></li><li class="option444 menuOption menuLevel1"><a href="macae"><span class="menuText">Macaé</span></a></li><li class="option360 menuOption menuLevel1"><a href="niteroi"><span class="menuText">Niterói</span></a></li><li class="option355 menuOption menuLevel1"><a href="novafriburgo"><span class="menuText">Nova Friburgo</span></a></li><li class="option420 menuOption menuLevel1"><a href="resende"><span class="menuText">Resende</span></a></li><li class="option363 menuOption menuLevel1"><a href="riodasostras"><span class="menuText">Rio das Ostras</span></a></li><li class="option308 menuOption menuLevel1"><a href="riodejaneiro"><span class="menuText">Rio de Janeiro</span></a></li><li class="option331 menuOption menuLevel1"><a href="VoltaRedonda"><span class="menuText">Volta Redonda</span></a></li></ul></li><li class="option309 menuSection menuSection0 menuLevel0"><a href=""><span class="menuText">Rio Grande do Norte</span></a><ul><li class="option328 menuOption menuLevel1"><a href="Natal"><span class="menuText">Natal</span></a></li><li class="option310 menuOption menuLevel1"><a href="Mossor%C3%B3"><span class="menuText">Mossoró</span></a></li></ul></li><li class="option311 menuSection menuSection0 menuLevel0"><a href=""><span class="menuText">Rio Grande do Sul</span></a><ul><li class="option466 menuOption menuLevel1"><a href="cachoeiradosul"><span class="menuText">Cachoeira do Sul</span></a></li><li class="option312 menuOption menuLevel1"><a href="CaxiasDoSul"><span class="menuText">Caxias do Sul</span></a></li><li class="option405 menuOption menuLevel1"><a href="pelotas"><span class="menuText">Pelotas</span></a></li><li class="option367 menuOption menuLevel1"><a href="portoalegre"><span class="menuText">Porto Alegre</span></a></li><li class="option401 menuOption menuLevel1"><a href="riogrande"><span class="menuText">Rio Grande</span></a></li></ul></li><li class="option313 menuSection menuSection0 menuLevel0"><a href=""><span class="menuText">Santa Catarina</span></a><ul><li class="option354 menuOption menuLevel1"><a href="ararangua"><span class="menuText">Araranguá</span></a></li><li class="option362 menuOption menuLevel1"><a href="blumenau"><span class="menuText">Blumenau</span></a></li><li class="option314 menuOption menuLevel1"><a href="Florianopolis"><span class="menuText">Florianópolis</span></a></li><li class="option337 menuOption menuLevel1"><a href="Itajai"><span class="menuText">Itajaí</span></a></li><li class="option315 menuOption menuLevel1"><a href="Joinville"><span class="menuText">Joinville</span></a></li><li class="option340 menuOption menuLevel1"><a href="Timbo"><span class="menuText">Timbó</span></a></li></ul></li><li class="option320 menuSection menuSection0 menuLevel0"><a href=""><span class="menuText">São Paulo</span></a><ul><li class="option421 menuOption menuLevel1"><a href="aguasdesaopedro"><span class="menuText">Águas de São Pedro</span></a></li><li class="option461 menuOption menuLevel1"><a href="aracatuba"><span class="menuText">Araçatuba</span></a></li><li class="option365 menuOption menuLevel1"><a href="Araraquara"><span class="menuText">Araraquara</span></a></li><li class="option449 menuOption menuLevel1"><a href="americana"><span class="menuText">Americana</span></a></li><li class="option446 menuOption menuLevel1"><a href="botucatu"><span class="menuText">Botucatu</span></a></li><li class="option424 menuOption menuLevel1"><a href="brotas"><span class="menuText">Brotas</span></a></li><li class="option333 menuOption menuLevel1"><a href="Campinas"><span class="menuText">Campinas</span></a></li><li class="option452 menuOption menuLevel1"><a href="CampoLimpoPaulista"><span class="menuText">Campo Limpo Paulista</span></a></li><li class="option364 menuOption menuLevel1"><a href="catanduva"><span class="menuText">Catanduva</span></a></li><li class="option336 menuOption menuLevel1"><a href="GrandeABC"><span class="menuText">Grande ABC</span></a></li><li class="option463 menuOption menuLevel1"><a href="indaiatuba"><span class="menuText">Indaiatuba</span></a></li><li class="option451 menuOption menuLevel1"><a href="jacarei"><span class="menuText">Jacareí</span></a></li><li class="option374 menuOption menuLevel1"><a href="jundiai"><span class="menuText">Jundiaí</span></a></li><li class="option375 menuOption menuLevel1"><a href="Lorena"><span class="menuText">Lorena</span></a></li><li class="option345 menuOption menuLevel1"><a href="Osasco"><span class="menuText">Osasco</span></a></li><li class="option465 menuOption menuLevel1"><a href="piracicaba"><span class="menuText">Piracicaba</span></a></li><li class="option376 menuOption menuLevel1"><a href="Presidente+Prudente"><span class="menuText">Presidente Prudente</span></a></li><li class="option329 menuOption menuLevel1"><a href="RibeiraoPreto"><span class="menuText">Ribeirão Preto</span></a></li><li class="option356 menuOption menuLevel1"><a href="RioClaro"><span class="menuText">Rio Claro</span></a></li><li class="option402 menuOption menuLevel1"><a href="(SantoAndre)"><span class="menuText">Santo André</span></a></li><li class="option373 menuOption menuLevel1"><a href="santos"><span class="menuText">Santos</span></a></li><li class="option318 menuOption menuLevel1"><a href="SaoCarlos"><span class="menuText">São Carlos</span></a></li><li class="option368 menuOption menuLevel1"><a href="saojoaodaboavista"><span class="menuText">São João da Boa Vista</span></a></li><li class="option316 menuOption menuLevel1"><a href="SaoJosedoRioPreto"><span class="menuText">São José do Rio Preto</span></a></li><li class="option319 menuOption menuLevel1"><a href="SJC"><span class="menuText">São José dos Campos</span></a></li><li class="option417 menuOption menuLevel1"><a href="saopaulo"><span class="menuText">São Paulo</span></a></li><li class="option464 menuOption menuLevel1"><a href="saosebastiao"><span class="menuText">São Sebastião</span></a></li><li class="option330 menuOption menuLevel1"><a href="Sorocaba"><span class="menuText">Sorocaba</span></a></li><li class="option350 menuOption menuLevel1"><a href="taubate"><span class="menuText">Taubate</span></a></li><li class="option408 menuOption menuLevel1"><a href="vargemgrandepaulista"><span class="menuText">Vargem Grande Paulista</span></a></li></ul></li><li class="option321 menuSection menuSection0 menuLevel0"><a href=""><span class="menuText">Sergipe</span></a><ul><li class="option322 menuOption menuLevel1"><a href="tiki-index.php?page=Aracaju"><span class="menuText">Aracaju</span></a></li></ul></li><li class="option338 menuSection menuSection0 menuLevel0"><a href=""><span class="menuText">Tocantins</span></a><ul><li class="option339 menuOption menuLevel1"><a href="Palmas"><span class="menuText">Palmas</span></a></li></ul></li><li class="option323 menuSection menuSection0 menuLevel0"><a href="Adicione+sua+cidade"><span class="menuText">Adicione sua cidade</span></a><ul><li class="option460 menuOption menuLevel1"><a href=""><span class="menuText"></span></a></li></ul></li></ul>
+</div>
+</div>
+
+
+		</div>
+		<div class="box-footer">
+
+		</div>
+	</div>
+
+								</div>
+					</div>
+					</div>
+			<!--[if IE 7]><br style="clear:both; height: 0" /><![endif]-->
+			</div>
+				<div id="footer">
+				<div class="footerbgtrap">
+					<div class="content">
+		<div class="container">
+<div id="custom_site_footer"><div style="text-align: center"><small>
+  <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/br/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/2.5/br/88x31.png"/></a><br/>O conteúdo deste site está licenciado sob uma <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/br/">Licença Creative Commons</a><br />
+  Powered by <a href="http://www.tikiwiki.org/" target="_blank">TikiWiki CMS/Groupware</a><br />
+</small></div></div><div id="power">
+	</div>
+<div id="credits_svnrev">
+		<div id="credits">
+		Tema: Fivealive	</div>
+</div>
+</div>
+					</div>
+				</div>
+			</div>	
+		</div>	</div> 
+
+
+
+	
+	
+	
+	<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-22072174-1");
+pageTracker._trackPageview();
+</script><br />
+
+		
+<!-- Put JS at the end -->
+	
+	
+<!-- jsfile dynamic -->
+<script type="text/javascript" src="tiki-jsplugin.php?language=pt-br"></script>
+<!-- jsfile 0 -->
+<script type="text/javascript" src="lib/tiki-js.js"></script>
+<script type="text/javascript" src="lib/swfobject/swfobject.js"></script>
+<script type="text/javascript" src="lib/jquery/jquery.js"></script>
+<script type="text/javascript" src="lib/jquery_tiki/tiki-jquery.js"></script>
+<script type="text/javascript" src="lib/ajax/autosave.js"></script>
+<script type="text/javascript" src="lib/jquery/jquery-ui/ui/jquery-ui.js"></script>
+<script type="text/javascript" src="lib/jquery_tiki/6.x_only/jquery.hoverIntent.js"></script>
+<script type="text/javascript" src="lib/jquery/cluetip/lib/jquery.bgiframe.min.js"></script>
+<script type="text/javascript" src="lib/jquery/cluetip/jquery.cluetip.js"></script>
+<script type="text/javascript" src="lib/jquery/jquery-autocomplete/lib/jquery.ajaxQueue.js"></script>
+<script type="text/javascript" src="lib/jquery/jquery-autocomplete/jquery.autocomplete.js"></script>
+<script type="text/javascript" src="lib/jquery/superfish/js/superfish.js"></script>
+<script type="text/javascript" src="lib/jquery/superfish/js/supersubs.js"></script>
+<script type="text/javascript" src="lib/jquery/colorbox/jquery.colorbox.js"></script>
+<script type="text/javascript" src="lib/jquery/jquery-validate/jquery.validate.js"></script>
+<script type="text/javascript" src="lib/jquery/jquery-ui/external/jquery.cookie.js"></script>
+<script type="text/javascript" src="lib/jquery/treeTable/src/javascripts/jquery.treeTable.js"></script>
+<script type="text/javascript" src="lib/tiki-js-sorttable.js"></script>
+<script type="text/javascript" src="lib/phplayers/libjs/layersmenu-library.js"></script>
+<script type="text/javascript" src="lib/phplayers/libjs/layersmenu.js"></script>
+<script type="text/javascript" src="lib/phplayers/libjs/layerstreemenu-cookies.js"></script>
+<script type="text/javascript" src="lib/menubuilder/menu.js"></script>
+<!-- jsfile 10 -->
+<script type="text/javascript" src="lib/jquery/jquery.async.js"></script>
+<!-- jsfile 25 -->
+<script type="text/javascript" src="lang/pt-br/language.js"></script>
+
+
+	
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+// js 0 
+var tiki_cookie_jar=new Array();
+var jsedate = new Date();
+jsedate.setTime(1350950802000);
+setCookieBrowser('javascript_enabled', 'y', null, jsedate);
+
+function inArray(item, array) {
+    for (var i in array) {
+        if (array[i] === item) {
+            return i;
+        }
+    }
+    return false;
+}
+var allTimeZoneCodes = ["ACST","ACT","ADDT","ADMT","ADT","AFT","AHDT","AHST","AKDT","AKST","AKTST","AKTT","ALMST","ALMT","AMST","AMT","ANAST","ANAT","ANT","AOT","APT","AQTST","AQTT","ARST","ART","ASHST","ASHT","AST","AWT","AZOMT","AZOST","AZOT","AZST","AZT","BAKST","BAKT","BDST","BDT","BEAT","BEAUT","BMT","BNT","BORTST","BORT","BOST","BOT","BRST","BRT","BST","BTT","BURT","CANT","CAPT","CAST","CAT","CAWT","CCT","CDDT","CDT","CEMT","CEST","CET","CGST","CGT","CHADT","CHAST","CHAT","CHDT","CHOST","CHOT","CIT","CJT","CKHST","CKT","CLST","CLT","CMT","COST","COT","CPT","CST","CUT","CVST","CVT","CWST","CWT","CXT","CHST","DACT","DAVT","DDUT","DMT","DUSST","DUST","EASST","EAST","EAT","ECT","EDDT","EDT","EEST","EET","EGST","EGT","EHDT","EIT","EMT","EPT","EST","EWT","FFMT","FJST","FJT","FKST","FKT","FMT","FNST","FNT","FORT","FRUST","FRUT","GALT","GAMT","GBGT","GEST","GET","GFT","GHST","GILT","GMT+10","GMT+11","GMT+12","GMT+1","GMT+2","GMT+3","GMT+4","GMT+5","GMT+6","GMT+7","GMT+8","GMT+9","GMT-10","GMT-11","GMT-12","GMT-13","GMT-14","GMT-1","GMT-2","GMT-3","GMT-4","GMT-5","GMT-6","GMT-7","GMT-8","GMT-9","GMT","GST","GYT","HADT","HAST","HDT","HKST","HKT","HMT","HOVST","HOVT","HPT","HST","HWT","ICT","IDDT","IDT","IHST","IMT","IOT","IRDT","IRKST","IRKT","IRST","ISST","IST","JAVT","JDT","JMT","JST","KART","KAST","KDT","KGST","KGT","KIZST","KIZT","KMT","KOST","KRAST","KRAT","KST","KUYST","KUYT","KWAT","LHST","LINT","LKT","LMT","LONT","LRT","LST","LOCAL TIME ZONE MUST BE SET--SEE ZIC MANUAL PAGE","MADMT","MADST","MADT","MAGST","MAGT","MALST","MALT","MART","MAWT","MDDT","MDST","MDT","MEST","MET","MHT","MMT","MOST","MOT","MPT","MSD","MSK","MST","MUST","MUT","MVT","MWT","MYT","NCST","NCT","NDDT","NDT","NEGT","NEST","NET","NFT","NMT","NOVST","NOVT","NPT","NRT","NST","NUT","NWT","NZDT","NZMT","NZST","OMSST","OMST","ORAST","ORAT","PDDT","PDT","PEST","PETST","PETT","PET","PGT","PHOT","PHST","PHT","PKST","PKT","PMDT","PMST","PMT","PNT","PONT","PPMT","PPT","PST","PWT","PYST","PYT","QMT","QYZST","QYZT","RET","RMT","ROTT","SAKST","SAKT","SAMST","SAMT","SAST","SBT","SCT","SDMT","SGT","SHEST","SHET","SJMT","SLST","SMT","SRT","SST","STAT","SVEST","SVET","SWAT","SYOT","TAHT","TASST","TAST","TBIST","TBIT","TBMT","TFT","TJT","TKT","TLT","TMT","TOST","TOT","TRST","TRT","TRUT","TSAT","TVT","UCT","ULAST","ULAT","URAST","URAT","URUT","UTC","UYHST","UYST","UYT","UZST","UZT","VET","VLASST","VLAST","VLAT","VOLST","VOLT","VOST","VUST","VUT","WAKT","WARST","WART","WAST","WAT","WEMT","WEST","WET","WFT","WGST","WGT","WIT","WMT","WSDT","WST","YAKST","YAKT","YDDT","YDT","YEKST","YEKT","YERST","YERT","YPT","YST","YWT","A","B","C","D","E","F","G","H","I","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","ZZZ","Z"];
+var local_tz = "";
+var now = new Date();
+var now_string = now.toString();
+var m = now_string.match(/[ \(]([A-Z]{3,6})[ \)]?[ \d]*$/);	// try three or more char tz first at the end or just before the year
+if (!m) {
+	m = now_string.match(/[ \(]([A-Z]{1,6})[ \)]?[ \d]*$/);	// might be a "military" one if not
+}
+if (m) {
+	m = m[1];
+} else {	// IE (sometimes) gives UTC +offset instead of the abbreviation
+	// sadly this workaround will fail for non-whole hour offsets
+	var hours = - now.getTimezoneOffset() / 60;
+	m = "GMT" + (hours > 0 ? "+" : "") + hours;
+}
+if (inArray(m, allTimeZoneCodes)) {
+	local_tz = m;
+} else {
+	local_tz = "UTC";
+}
+setCookie("local_tz", local_tz);
+
+// js 100 
+
+// JS Object to hold prefs for jq
+var jqueryTiki = new Object();
+jqueryTiki.ui = true;
+jqueryTiki.ui_theme = "smoothness";
+jqueryTiki.tooltips = true;
+jqueryTiki.autocomplete = true;
+jqueryTiki.superfish = true;
+jqueryTiki.replection = false;
+jqueryTiki.tablesorter = false;
+jqueryTiki.colorbox = true;
+jqueryTiki.cboxCurrent = "{current} / {total}";
+jqueryTiki.sheet = false;
+jqueryTiki.carousel = false;
+jqueryTiki.jqs5 = false;
+jqueryTiki.validate = true;
+
+jqueryTiki.effect = "";				// Default effect
+jqueryTiki.effect_direction = "vertical";	// "horizontal" | "vertical" etc
+jqueryTiki.effect_speed = 400;	// "slow" | "normal" | "fast" | milliseconds (int) ]
+jqueryTiki.effect_tabs = "slide";		// Different effect for tabs
+jqueryTiki.effect_tabs_direction = "vertical";
+jqueryTiki.effect_tabs_speed = "fast";
+
+jqueryTiki.autosave = true;
+jqueryTiki.sefurl = true;
+
+
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+$(document).ready(function(){
+// jq_onready 0 
+phplayersmenu_loaded = 1;
+});
+//--><!]]>
+</script>
+
+	</body>
+</html>
