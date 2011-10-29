@@ -6,6 +6,10 @@ Projeto puramente didático que tem como objetivo plotar em um mapa do Google Ma
 
 O diretório *randomfile* tem os arquivos html (), kml e csv.
 
+### Fusion Tables do projeto
+
+http://www.google.com/fusiontables/DataSource?dsrcid=2008382
+
 ### Testes
 
 Para executar os testes das classes, execute o seguinte comando
