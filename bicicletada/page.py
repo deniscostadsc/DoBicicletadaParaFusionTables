@@ -11,14 +11,14 @@ class Page(object):
         self.url='http://bicicletada.org/'
 
         # Pega a página configurada na URL.
-        self.page=urllib.urlopen(self.url)
+        page=urllib.urlopen(self.url)
 
         # Retorna código de retorno HTTP
         # mais informação em:
         # http://pt.wikipedia.org/wiki/Hypertext_Transfer_Protocol#C.C3.B3digos_de_retorno
-        self.status_code=self.page.getcode()
+        self.status_code=page.getcode()
 
         # Joga o conteúdo da página nesse atributo.
-        self.content=self.page.read()
+        self.content=page.read()
         
-        self.page.close()
+        page.close()
