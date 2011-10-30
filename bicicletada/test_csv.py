@@ -40,12 +40,19 @@ class TestCSV(unittest.TestCase):
     
     def test_if_all_pages_are_available(self):
         csv = CSV()
+        unavailable_pages = ['http://www.bicicletada.org/saolourenco',
+                             'http://www.bicicletada.org/fozdoiguacu',
+                             'http://www.bicicletada.org/cachoeiradosul',
+                             'http://www.bicicletada.org/aracatuba',
+                             'http://www.bicicletada.org/SantoAndre',
+                             'http://www.bicicletada.org/Sorocaba']
+
         for line in csv.csv_table[1:]:
-            url = line[-1][1:-2]
-            # São Lorenço não funciona
+            url = line[-1][1:-1]
+            # Alguns grupos não tem página
             # Feito um hack pra funcionar 
-            if url != 'http://bicicletada.org/saolourenco':
-                url = 'http://bicicletada.org/'
+            if url in unavailable_pages:
+                continue
             # Pega a pagina configurada na URL.
             page = urllib.urlopen(url)
             self.assertEquals(page.getcode(), 200)
