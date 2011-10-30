@@ -9,10 +9,12 @@ from csv import CSV
 
 class TestCSV(unittest.TestCase):
 
-    def test_should_there_are_3_column_names(self):
-        csv=CSV()
-        self.assertEquals(len(csv.column_names), 3)
-    
+    def test_should_all_lines_have_same_quantity_fields(self):
+        csv = CSV()
+        field_number = len(csv.csv_table[0])
+        for line in csv.csv_table[1:]:
+            self.assertEquals(len(line), field_number)
+
     def test_first_line_should_have_column_names(self):
         csv=CSV()
         self.assertEquals(', '.join(csv.column_names), '"Estado", "Localização", "URL"')
@@ -54,11 +56,5 @@ class TestCSV(unittest.TestCase):
         self.assertTrue(isfile('XXXXXXXXXXXXXXXXX_my_csv_test_file.csv'))
         remove('XXXXXXXXXXXXXXXXX_my_csv_test_file.csv')
     
-    def test_should_all_lines_have_same_quantity_fields(self):
-        csv = CSV()
-        field_number = len(csv.csv_table[0])
-        for line in csv.csv_table[1:]:
-            self.assertEquals(len(line), field_number)
-
 if __name__ == '__main__':
     unittest.main()
