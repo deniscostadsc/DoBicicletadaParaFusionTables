@@ -4,9 +4,9 @@ import re
 from page import Page
 
 class Parser(object):
-    
-    page = Page()
-    content = page.content
+    def __init__(self):
+        self.page = Page()
+        self.content = self.page.content
     
     def parse(self):
         #file = open('index.html', 'r')
