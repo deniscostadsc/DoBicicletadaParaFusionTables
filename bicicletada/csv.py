@@ -4,7 +4,6 @@ from page import Page
 from parser import Parser
 
 class CSV(object):
-    
     def __init__(self):
         self.column_names = ['"Estado"', '"Localização"', '"URL"']
         t = Parser()
