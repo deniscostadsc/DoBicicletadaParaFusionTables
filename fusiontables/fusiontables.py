@@ -5,11 +5,12 @@ import urllib
 from getpass import getpass
 
 class Google(object):
-    def googlelogin(self, service):
+    def google_login_token(self, service):
         login = raw_input('Login: ')
         password = getpass('Password: ')
         url_login = 'https://www.google.com/accounts/ClientLogin?'
         uri = urllib.urlencode({'Email': login, 'Passwd': password, 'service': service})
+        uri = uri.encode('utf-8')
         p = urllib.urlopen(url_login + uri).read()
 
         for line in p.splitlines():
@@ -19,7 +20,7 @@ class Google(object):
 
 class FusionTables(Google):
     def sqlquery(self, query):
-        token = self.googlelogin('fusiontables')
+        token = self.google_login_token('fusiontables')
         header = {'Authorization': 'GoogleLogin auth=%s' % token}
         encoded_query = urllib.urlencode({'sql': query})
         p = urllib2.Request('https://www.google.com/fusiontables/api/query?%s' % encoded_query, headers=header)
