@@ -2,9 +2,10 @@
 # coding: utf-8
 
 import urllib
-
+#Toda classe herda de Object ou herda de outras classes que herdam de object
 class Page(object):
 
+    #self indica que o atributo é do objeto, sem self é da classe    
     def __init__(self):        
         self.url='http://bicicletada.org/'
 

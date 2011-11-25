@@ -1,13 +1,16 @@
 # coding: utf-8
 
-import re
+import re #biblioteca
 from page import Page
 
 class Parser(object):
     def __init__(self):
+        #Atributos
         self.page = Page()
         self.content = self.page.content
-    
+
+    #pega todos os nomes de estados e cidades que encontram-se no menu do site bicicletada.
+    #método
     def parse(self):
         #file = open('index.html', 'r')
         #content = file.read()
