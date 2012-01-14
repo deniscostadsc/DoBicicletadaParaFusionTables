@@ -39,7 +39,7 @@
   </script>
 </head>
 <body>
-  <h1>Grupos de Bicicletada espalhados pelo Brasil</h1>
+  <a href="http://www.bicicletada.org"><h1>Grupos de Bicicletada espalhados pelo Brasil</h1></a>
   Estado: <select class="changemap">
     <option value="">Todos</option>
     <option value="Acre">Acre</option>
