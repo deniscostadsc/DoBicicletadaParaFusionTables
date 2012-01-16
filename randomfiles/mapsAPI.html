@@ -21,14 +21,14 @@
         if( $('.changemap option:selected').val() === '' ) {
           layer.setQuery("SELECT 'Localização' from " + tableid);
         } else {
-          layer.setQuery("SELECT 'Localização' from " + tableid + " WHERE 'Estado' = '" + $('select option:selected').text() + "'");
+          layer.setQuery("SELECT 'Localização' from " + tableid + " WHERE 'Estado' = '" + $('select option:selected').val() + "'");
         }
       });
 
       var tableid = 2008382;
       var layer = new google.maps.FusionTablesLayer(tableid);
 
-      map = new google.maps.Map(document.getElementById('map_canvas'), {
+      map = new google.maps.Map($('#map_canvas').get(0), {
         center: new google.maps.LatLng(-15, -52),
         zoom: 4,
         mapTypeId: google.maps.MapTypeId.ROADMAP
